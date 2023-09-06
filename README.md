@@ -8,6 +8,16 @@
 
 - niks bekend*
 
+## SDG:
+
+-  Conserve and sustainably use the oceans, seas and marine resources
+
+## Color Pallet:
+
+zwart, #000000
+paars, #7C09D8
+blauw, #5C63DF
+wit, #FFFFFF
 
 # License
 ```
