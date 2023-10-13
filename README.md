@@ -23,7 +23,7 @@ wit, #FFFFFF
 ```
 MIT License
 
-Copyright (c) 2023 Daniel Vermeulen, Jari Kee, Bente Kavsek
+Copyright (c) 2023 Daniel Vermeulen, Bente Kavsek
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
