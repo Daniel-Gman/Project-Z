@@ -8,6 +8,6 @@ include_once("config.php");
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 
-    $sql = "SELECT * FROM ...";
+    $sql = "SELECT * FROM SDG";
     
     $result = $conn->query($sql);
