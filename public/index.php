@@ -7,12 +7,13 @@
     <title>SDG Homepage</title>
     
     <?php
-        include '../views/header.php'
+        include '../views/header.php';
     ?>
 
 
 <?php
-    include '../views/mainSDG.php'
+    include("../views/mainSDG.php");
+    makeTiles();
 ?>
     
 </head>

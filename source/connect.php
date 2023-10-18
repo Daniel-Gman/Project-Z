@@ -1,11 +1,13 @@
 <?php
-include_once("config.php");
+require("config.php");
 
-    $servername = SERVERNAME;
-    $username = USERNAME;
-    $password = PASSWORD;
-    $dbname = DBNAME;
+function db_connect() {
+    $servername = "db3";
+    $username = "db_user";
+    $password = "mijn_p@ss#";
+    $dbname = "voorbeeld_db";
 
-    $conn = new mysqli($servername, $username, $password, $dbname);
+    $conn = mysqli_connect($servername, $username, $password, $dbname);    
 
-    $test = mysqli_query($conn, "SELECT 'id', 'titel', 'kleur', 'imgPath', 'imgPath2', 'tekst1', 'tekst2' FROM SDG WHERE id = '$result'");
+    return $conn;
+}
