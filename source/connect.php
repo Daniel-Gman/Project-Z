@@ -8,6 +8,4 @@ include_once("config.php");
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 
-    $sql = "SELECT * FROM SDG";
-    
-    $result = $conn->query($sql);
+    $test = mysqli_query($conn, "SELECT 'id', 'titel', 'kleur', 'imgPath', 'imgPath2', 'tekst1', 'tekst2' FROM SDG WHERE id = '$result'");
