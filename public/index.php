@@ -6,15 +6,22 @@
     <link rel="stylesheet" href="/css/style.css">
     <title>SDG Homepage</title>
     
-    <?php
-        include '../views/header.php';
-    ?>
+        <?php
+            include '../views/header.php';
+        ?>
+
+    <main>
+        <section class="mainSDG">
+            <?php
+                include("../views/mainSDG.php");
+                makeTiles();
+            ?>
+        </section>
 
 
-<?php
-    include("../views/mainSDG.php");
-    makeTiles();
-?>
+    </main>
+
+
     
 </head>
 <body>

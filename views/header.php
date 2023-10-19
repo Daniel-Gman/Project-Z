@@ -6,6 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>HEADER</h1>
+
+    <header class="header">
+        <img src="" alt="">
+
+    </header>
+
 </body>
 </html>
