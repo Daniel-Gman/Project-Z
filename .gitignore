@@ -38,3 +38,4 @@ public/phpMyAdmin/tmp
 
 docker/
 source/.env
+docker-compose.yml
