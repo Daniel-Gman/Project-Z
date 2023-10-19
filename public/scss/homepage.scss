@@ -1,11 +1,39 @@
+@use 'basics/colors.scss';
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8rem;
+}
+
+.main__titel{
+    padding-top: 2rem;
+    font-size: 7rem;
+    font-weight: 400;
+    align-self: center;
+}
+
 .mainSDG{
     display: flex;
     justify-content: space-between;
-    height: 30rem;
-    width: 90%;
     margin: 0 auto;
+    width: 90%;
 }
 
 .mainSDG__img{
     border-radius: 5%;
+    height: 45rem;
+    width: 45rem;
+}
+
+.main__button{
+    background-color: colors.$light-purple;
+    color: colors.$whiteText;
+    padding: 2rem 4rem;
+    width: 20%;
+    align-self: center;
+    border-radius: 5%;
+    border: none;
+    font-size: 3rem;
 }

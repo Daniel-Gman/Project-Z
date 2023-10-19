@@ -1,0 +1,35 @@
+@use 'basics/colors.scss';
+@use 'basics/components.scss';
+
+.header{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: colors.$light-purple;
+}
+
+.header__left{
+    @extend %headerStuk;
+}
+
+.header__left__logo{
+    height: 6rem;
+}
+
+.header__left__titel{
+    font-size: 4rem;
+}
+
+.header__right{
+    @extend %headerStuk
+}
+
+.header__right__nvvnLink{
+    color: colors.$whiteText;
+    font-size: 2rem;
+}
+
+.header__right__gitLink__icon{
+    font-size: 5rem;
+    color: colors.$blackText;
+}

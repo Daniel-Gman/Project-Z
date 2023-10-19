@@ -1,13 +1,83 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8rem;
+}
+
+.main__titel {
+  padding-top: 2rem;
+  font-size: 7rem;
+  font-weight: 400;
+  align-self: center;
+}
+
 .mainSDG {
   display: flex;
   justify-content: space-between;
-  height: 30rem;
-  width: 90%;
   margin: 0 auto;
+  width: 90%;
 }
 
 .mainSDG__img {
   border-radius: 5%;
+  height: 45rem;
+  width: 45rem;
+}
+
+.main__button {
+  background-color: #9ca0f5;
+  color: #fff;
+  padding: 2rem 4rem;
+  width: 20%;
+  align-self: center;
+  border-radius: 5%;
+  border: none;
+  font-size: 3rem;
+}
+
+.header__left, .header__right {
+  color: #fff;
+  font-weight: 200;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.header {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #9ca0f5;
+}
+
+.header__left__logo {
+  height: 6rem;
+}
+
+.header__left__titel {
+  font-size: 4rem;
+}
+
+.header__right__nvvnLink {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.header__right__gitLink__icon {
+  font-size: 5rem;
+  color: #000;
 }
 
 /*# sourceMappingURL=style.css.map */

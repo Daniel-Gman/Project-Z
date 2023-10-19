@@ -1,0 +1,9 @@
+@use'colors.scss';
+
+%headerStuk{
+    color: colors.$whiteText;
+    font-weight: 200;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
