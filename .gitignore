@@ -37,3 +37,4 @@ docker/mysqldata
 public/phpMyAdmin/tmp
 
 docker/
+source/.env
