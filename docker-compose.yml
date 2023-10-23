@@ -29,7 +29,7 @@ services:
       - php
 
   # MariaDB Service
-  mariadb:
+   mariadb:
     container_name: db3
     image: mariadb:latest
     environment:
