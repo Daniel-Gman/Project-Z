@@ -9,44 +9,6 @@ html {
   font-size: 62.5%;
 }
 
-.main {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  gap: 8rem;
-}
-
-.main__titel {
-  padding-top: 2rem;
-  font-size: 7rem;
-  font-weight: 400;
-  align-self: center;
-}
-
-.mainSDG {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  width: 90%;
-}
-
-.mainSDG__img {
-  border-radius: 5%;
-  height: 45rem;
-  width: 45rem;
-}
-
-.main__button {
-  background-color: #9ca0f5;
-  color: #fff;
-  padding: 2rem 4rem;
-  width: 20%;
-  align-self: center;
-  border-radius: 5%;
-  border: none;
-  font-size: 3rem;
-}
-
 .header__left, .header__right {
   color: #fff;
   font-weight: 200;
@@ -60,6 +22,7 @@ html {
   display: flex;
   justify-content: space-between;
   background-color: #9ca0f5;
+  border-bottom: 1px solid #000;
 }
 
 .header__left__logo {
@@ -78,6 +41,93 @@ html {
 .header__right__gitLink__icon {
   font-size: 5rem;
   color: #000;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8rem;
+}
+
+.main__titel {
+  padding-top: 2rem;
+  font-size: 7rem;
+  font-weight: 400;
+  align-self: center;
+}
+
+.main__SDG__section {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.main__SDG__img {
+  border-radius: 5%;
+  height: 45rem;
+  width: 45rem;
+}
+
+.main__SDG__img__cover {
+  height: 45rem;
+  width: 45rem;
+  background-color: black;
+  border-radius: 5%;
+  z-index: 10;
+  position: absolute;
+  animation: layer 0.5s ease-in-out forwards;
+}
+
+@keyframes layer {
+  0% {
+    opacity: 80%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+.main__button {
+  background-color: #9ca0f5;
+  color: #fff;
+  padding: 2rem 4rem;
+  width: 20%;
+  align-self: center;
+  border-radius: 1rem;
+  border: none;
+  font-size: 3rem;
+  bottom: 0;
+}
+
+.sdgPage {
+  padding: 10rem 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.sdgPage__top {
+  display: flex;
+  gap: 5rem;
+}
+
+.sdgPage__img {
+  width: 40%;
+  border-radius: 5%;
+}
+
+.sdgPage__top__text {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.sdgPage__title {
+  font-size: 6rem;
+}
+
+.sdgPage__text1 {
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

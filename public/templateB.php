@@ -1,8 +1,7 @@
 <?php
-    require ("../views/header.php");
-    require("../views/main.php");
-    require("../views/mainSDG.php");
-    require ("../views/footer.php");
+    require("../views/page.php");
+    require("../views/header.php");
+    require("../views/footer.php");
 ?>
 <!DOCTYPE html>
 <html lang="nl">
@@ -14,28 +13,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/81350521ed.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/style.css">
-    <title>SDG Homepage</title>
-   
 </head>
 <body>
 
-    <header class="header">
+<header class="header">
         <?php makeHeader(); ?>
     </header>
 
     <main class="main">
-        <?php mainTitle(); ?>
-
-        <section class="main__SDG__section">
-            <?php makeTiles(); ?>
-        </section>
-
-        <?php mainButton(); ?>
+        <?php makePage(); ?>
     </main>
 
     <footer>
-        <?php makeFooter() ?>
+        <?php makeFooter(); ?>
     </footer>
+    
     
 </body>
 </html>

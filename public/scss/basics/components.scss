@@ -7,3 +7,15 @@
     gap: 2rem;
     align-items: center;
 }
+
+%cta{
+    background-color: colors.$light-purple;
+    color: colors.$whiteText;
+    padding: 2rem 4rem;
+    width: 20%;
+    align-self: center;
+    border-radius: 1rem;
+    border: none;
+    font-size: 3rem;
+    bottom: 0;
+}

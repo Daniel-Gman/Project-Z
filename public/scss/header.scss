@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-between;
     background-color: colors.$light-purple;
+    border-bottom: 1px solid colors.$blackText;
 }
 
 .header__left{

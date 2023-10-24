@@ -10,7 +10,7 @@ $username= $envSettings["DB_USER"];
 $password= $envSettings["DB_PASSWORD"];
 $dbname= $envSettings["DB_HOST"];
 
-    $conn = mysqli_connect($servername, $username, $password, $dbname);    
+    $conn = mysqli_connect($dbname, $username, $password, $servername);    
     }
 
     return $conn;
