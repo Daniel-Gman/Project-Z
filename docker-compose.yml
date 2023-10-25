@@ -29,11 +29,11 @@ services:
       - php
 
   # MariaDB Service
-   mariadb:
+  mariadb:
     container_name: db3
     image: mariadb:latest
     environment:
-      MYSQL_DATABASE: SDG-website
+      MYSQL_DATABASE: voorbeeld_db
       MYSQL_USER: db_user
       MYSQL_PASSWORD: mijn_p@ss#
       MYSQL_ROOT_PASSWORD: 4dy5qwtrsag#!sad
