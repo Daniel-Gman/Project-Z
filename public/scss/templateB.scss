@@ -4,6 +4,7 @@
     padding: 10rem 0;
     width: 90%;
     margin: 0 auto;
+    display: flex;
 }
 
 .sdgPage__top{
@@ -28,4 +29,8 @@
 
 .sdgPage__text1{
     font-size: 2rem;
+}
+
+.sdgPage__mid{
+    display: flex;
 }

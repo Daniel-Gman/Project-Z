@@ -17,6 +17,18 @@ html {
   align-items: center;
 }
 
+.main__button {
+  background-color: #9ca0f5;
+  color: #fff;
+  padding: 2rem 4rem;
+  width: 20%;
+  align-self: center;
+  border-radius: 1rem;
+  border: none;
+  font-size: 3rem;
+  bottom: 0;
+}
+
 .header {
   padding: 2rem;
   display: flex;
@@ -88,22 +100,11 @@ html {
     opacity: 0%;
   }
 }
-.main__button {
-  background-color: #9ca0f5;
-  color: #fff;
-  padding: 2rem 4rem;
-  width: 20%;
-  align-self: center;
-  border-radius: 1rem;
-  border: none;
-  font-size: 3rem;
-  bottom: 0;
-}
-
 .sdgPage {
   padding: 10rem 0;
   width: 90%;
   margin: 0 auto;
+  display: flex;
 }
 
 .sdgPage__top {
@@ -128,6 +129,10 @@ html {
 
 .sdgPage__text1 {
   font-size: 2rem;
+}
+
+.sdgPage__mid {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */

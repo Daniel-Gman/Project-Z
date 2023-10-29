@@ -26,8 +26,8 @@ function makePage() {
                     <p class="sdgPage__text1">'.$tekst1.'</p>
                 </section>
                 <section class="sdgPage__mid">
-                    <p class="sdgPage__text1">'.$tekst1.'</p>
-                    <img class="sdgPage__img" src="'.$path1.'.svg" style="background-color:'.$kleur.';"alt="">
+                    <p class="sdgPage__text2">'.$tekst2.'</p>
+                    <img class="sdgPage__img" src="'.$path2.'.webp" style="background-color:'.$kleur.';"alt="">
                 </section>
                 <section>
 
