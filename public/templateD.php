@@ -21,7 +21,9 @@
     </header>
 
     <main class="main">
+        <section class="section__main">
         <h1>Titel van de SDG</h1>
+    </section>
 
         <section class="page-top">
             <figure>
