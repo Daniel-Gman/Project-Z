@@ -1,7 +1,8 @@
 @use 'basics/components.scss';
 
-.main{
+.overzicht__main{
     @extend %page-settings;
+    flex-direction: column;
 }
 
 .SDG{

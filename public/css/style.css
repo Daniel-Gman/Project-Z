@@ -1,3 +1,178 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+
+.overzicht__main, .sdgPage {
+  padding: 10rem 0;
+  width: 160rem;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8rem;
+}
+
+.header__left, .header__center, .header__right {
+  color: #fff;
+  font-weight: 200;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.main__button {
+  background-color: #9ca0f5;
+  color: #fff;
+  padding: 2rem 4rem;
+  width: 20%;
+  align-self: center;
+  border-radius: 1rem;
+  border: none;
+  font-size: 3rem;
+  bottom: 0;
+}
+
+.right_top__titel {
+  font-size: 5rem;
+}
+
+.right_top__text, .right_bottom__text {
+  font-size: 2rem;
+}
+
+.left__img1, .right_bottom__img2 {
+  border-radius: 5%;
+}
+
+.header {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #9ca0f5;
+}
+
+.header__left__logo {
+  height: 6rem;
+}
+
+.header__left__titel {
+  font-size: 4rem;
+}
+
+.header__center {
+  gap: 10rem;
+}
+
+.header__icon {
+  color: white;
+  font-size: 4rem;
+}
+
+.header__right__nvvnLink {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.header__right__gitLink__icon {
+  font-size: 5rem;
+  color: #000;
+}
+
+.header > a {
+  background-color: red;
+  height: 10px;
+  width: 10px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8rem;
+}
+
+.main__titel {
+  padding-top: 2rem;
+  font-size: 7rem;
+  font-weight: 400;
+  align-self: center;
+}
+
+.main__SDG__section {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.main__SDG__img {
+  border-radius: 5%;
+  height: 45rem;
+  width: 45rem;
+}
+
+.main__SDG__img__cover {
+  height: 45rem;
+  width: 45rem;
+  background-color: black;
+  border-radius: 5%;
+  z-index: 10;
+  position: absolute;
+  animation: layer 0.5s ease-in-out forwards;
+}
+
+@keyframes layer {
+  0% {
+    opacity: 80%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+.sdgPage {
+  line-height: 3rem;
+  display: flex;
+  gap: 5rem;
+}
+
+.sdgPage__left {
+  width: 30%;
+}
+
+.left__img1 {
+  width: 100%;
+}
+
+.sdgPage__right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.right_top {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.right_bottom {
+  display: flex;
+  gap: 5rem;
+}
+
+.right_bottom__img2 {
+  width: 50%;
+}
+
 h1 {
   display: flex;
   justify-content: center;
@@ -64,6 +239,15 @@ h1 {
 p {
   display: flex;
   justify-content: center;
+}
+
+.overzicht__main {
+  flex-direction: column;
+}
+
+.SDG {
+  height: 30rem;
+  border-radius: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */

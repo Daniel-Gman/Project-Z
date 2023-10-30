@@ -20,7 +20,7 @@
         <?php makeHeader(); ?>
     </header>
 
-    <main class="main">
+    <main class="overzicht__main">
     <?php alleSDGs(); ?>
     
     </main>
