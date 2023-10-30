@@ -57,6 +57,17 @@ html {
   font-size: 4rem;
 }
 
+.header__center {
+  display: flex;
+  gap: 10rem;
+  align-items: center;
+}
+
+.header__icon {
+  color: white;
+  font-size: 4rem;
+}
+
 .header__right__nvvnLink {
   color: #fff;
   font-size: 2rem;
@@ -153,15 +164,25 @@ html {
 }
 
 h1 {
-  color: #9ca0f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 .section__main {
   display: flex;
   justify-content: center;
   background: red;
-  height: 10rem;
-  width: 10rem;
+  height: 50rem;
+  width: 100%;
+}
+
+.section__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
 }
 
 /*# sourceMappingURL=style.css.map */

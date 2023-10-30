@@ -21,6 +21,17 @@
     font-size: 4rem;
 }
 
+.header__center{
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+}
+
+.header__icon{
+    color: white;
+    font-size: 4rem;
+}
+
 .header__right{
     @extend %headerStuk
 }
