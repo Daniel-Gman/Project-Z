@@ -11,12 +11,16 @@ html {
   font-size: 62.5%;
 }
 
-.main,
+.overzicht__main,
 .sdgPage {
   padding: 10rem 0;
   width: 160rem;
   height: 100%;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8rem;
 }
 
 .header__left,
@@ -244,6 +248,10 @@ h1 {
 p {
   display: flex;
   justify-content: center;
+}
+
+.overzicht__main {
+  flex-direction: column;
 }
 
 .SDG {
