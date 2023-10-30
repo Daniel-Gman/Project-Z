@@ -20,16 +20,17 @@
         <?php makeHeader(); ?>
     </header>
 
-    <main class="main">
         <section class="section__main">
         <h1>Titel van de SDG</h1>
-    </section>
-
-        <section class="page-top">
-            <figure>
+        <figure class="section__img">
                 <img src="img/sdg.1.2.webp" alt="">
                 <p>img van de sgd maar die laad niet</p>
             </figure>
+    </section>
+
+<main class="main">
+        <section class="page-top">
+            
             <p>Text over de sdg</p>
         </section>
 

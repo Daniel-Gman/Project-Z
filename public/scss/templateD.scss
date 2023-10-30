@@ -1,13 +1,24 @@
 @use 'basics/colors.scss';
 
 h1 {
-    color: colors.$light-purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
-.section__main{
+.section__main {
     display: flex;
     justify-content: center;
     background: red;
-    height: 10rem;
-    width: 10rem;
+    height: 50rem;
+    width: 100%;
+}
+
+.section__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+
 }
