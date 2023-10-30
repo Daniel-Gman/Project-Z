@@ -1,5 +1,5 @@
 <?php
-    require("../views/page.php");
+    require("../views/allSDG.php");
     require("../views/header.php");
     require("../views/footer.php");
 ?>
@@ -21,7 +21,8 @@
     </header>
 
     <main class="main">
-
+    <?php alleSDGs(); ?>
+    
     </main>
 
     <footer>

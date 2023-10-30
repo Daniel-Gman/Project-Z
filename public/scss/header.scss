@@ -6,7 +6,6 @@
     display: flex;
     justify-content: space-between;
     background-color: colors.$light-purple;
-    border-bottom: 1px solid colors.$blackText;
 }
 
 .header__left{
@@ -22,9 +21,8 @@
 }
 
 .header__center{
-    display: flex;
+    @extend %headerStuk;
     gap: 10rem;
-    align-items: center;
 }
 
 .header__icon{
@@ -44,4 +42,10 @@
 .header__right__gitLink__icon{
     font-size: 5rem;
     color: colors.$blackText;
+}
+
+.header > a{
+    background-color: red;
+    height: 10px;
+    width: 10px;
 }

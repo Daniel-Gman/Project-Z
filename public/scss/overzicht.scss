@@ -1,0 +1,10 @@
+@use 'basics/components.scss';
+
+.main{
+    @extend %page-settings;
+}
+
+.SDG{
+    height: 30rem;
+    border-radius: 5%;
+}

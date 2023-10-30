@@ -1,5 +1,12 @@
 @use'./colors.scss';
 
+%page-settings{
+    padding: 10rem 0;
+    width: 160rem;
+    height: 100%;
+    margin: 0 auto;
+}
+
 %headerStuk {
     color: colors.$whiteText;
     font-weight: 200;
