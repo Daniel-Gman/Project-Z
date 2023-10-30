@@ -156,4 +156,12 @@ h1 {
   color: #9ca0f5;
 }
 
+.section__main {
+  display: flex;
+  justify-content: center;
+  background: red;
+  height: 10rem;
+  width: 10rem;
+}
+
 /*# sourceMappingURL=style.css.map */
