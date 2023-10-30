@@ -19,20 +19,22 @@ function makePage() {
     }
 
     echo'   <section class="sdgPage">
-                <section class="sdgPage__top">
-                    <img class="sdgPage__img" src="'.$path1.'.svg" style="background-color:'.$kleur.';"alt="">
-                    <section class="sdgPage__top__text">
-                    <h1 class="sdgPage__title">'.$titel.'</h1>
-                    <p class="sdgPage__text1">'.$tekst1.'</p>
+                <figure class="sdgPage__left">
+                    <img class="left__img1" src="'.$path1.'.svg" style="background-color:'.$kleur.';"alt="">
+                </figure>
+                <section class="sdgPage__right">
+                    <section class="right_top">
+                        <h1 class="right_top__titel">'.$titel.'</h1>
+                        <p class="right_top__text">'.$tekst1.'</p>
+                    </section>
+                    <section class="right_bottom">
+                        <section class="right_bottom__text">
+                            <h2 class"right_bottom__titel"=>Wat kan je als student doen?</h2>
+                            <p class="right_bottom__paragraph">'.$tekst2.'</p>
+                        </section>
+                        <img class="right_bottom__img2" src="'.$path2.'.webp" style="background-color:'.$kleur.';"alt="">
+                    </section>
                 </section>
-                <section class="sdgPage__mid">
-                    <p class="sdgPage__text2">'.$tekst2.'</p>
-                    <img class="sdgPage__img" src="'.$path2.'.webp" style="background-color:'.$kleur.';"alt="">
-                </section>
-                <section>
-
-                </section>
-
             </section>
             ';
 }
