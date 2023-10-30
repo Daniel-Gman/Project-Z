@@ -21,11 +21,12 @@
     </header>
 
         <section class="section__main">
+            <div>
         <h1>Titel van de SDG</h1>
         <figure class="section__img">
                 <img src="img/sdg.1.2.webp" alt="">
                 <p>img van de sgd maar die laad niet</p>
-            </figure>
+            </figure></div>
     </section>
 
 <main class="main">
