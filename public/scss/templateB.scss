@@ -2,11 +2,8 @@
 @use 'basics/components.scss';
 
 .sdgPage{
+    @extend %page-settings;
     line-height: 3rem;
-    padding: 10rem 0;
-    width: 160rem;
-    height: 100%;
-    margin: 0 auto;
     display: flex;
     gap: 5rem;
 }
@@ -19,7 +16,6 @@
     @extend %img;
     width: 100%;
 }
-
 
 .sdgPage__right{
     width: 60%;
