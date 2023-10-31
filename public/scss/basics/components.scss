@@ -1,8 +1,8 @@
 @use'./colors.scss';
 
-%page-settings{
+%page-settings {
     padding-top: 4rem;
-    width: 160rem;
+    width: 151rem;
     height: 100%;
     margin: 0 auto;
 }
@@ -27,24 +27,24 @@
     bottom: 0;
 }
 
-%overzicht-titel{
+%overzicht-titel {
     font-size: 5rem;
     font-weight: 400;
     align-self: center;
 }
 
-%h1{
+%h1 {
     font-size: 5rem;
 }
 
-%h2{
+%h2 {
     font-size: 4rem;
 }
 
-%paragraph{
+%paragraph {
     font-size: 2rem;
 }
 
-%img{
+%img {
     border-radius: 5%;
 }
