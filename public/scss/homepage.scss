@@ -2,6 +2,7 @@
 @use 'basics/components.scss';
 
 .home_main{
+    @extend %page-settings;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -40,6 +41,13 @@
     100% {  opacity: 0%;  }
   }
 
-.main__button{
+
+.cta__button{
 @extend %cta;
+}
+
+.cta__button_a{
+    display: block;
+    color: white;
+    text-decoration: none;
 }

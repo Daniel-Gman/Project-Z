@@ -36,5 +36,6 @@ function makePage() {
                     </section>
                 </section>
             </section>
+            <button class="cta__button" style="background-color:'.$kleur.';"><a class="cta__button_a" href="https://sdggame.nl/" target="_blank">Speel hier de game!</a></button>
             ';
 }

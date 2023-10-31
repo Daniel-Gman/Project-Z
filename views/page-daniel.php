@@ -21,6 +21,7 @@ function danielPage() {
     echo'   <section class="SDG_top">
                 <h1 class="SDG_top__titel">'.$titel.'</h1>
                 <img class="SDG_top__img" src="'.$path1.'.svg" style="background-color:'.$kleur.';"alt="">
+                <button class="cta__button" style="background-color:'.$kleur.';"><a class="cta__button_a" href="https://sdggame.nl/" target="_blank">Speel hier de game!</a></button>
             </section>
             <section class="SDG_mid">
                 <p class="SDG_mid__text">'.$tekst1.'</p>

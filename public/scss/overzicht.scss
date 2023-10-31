@@ -1,13 +1,21 @@
 @use 'basics/components.scss';
 
+.main__overzicht{
+    @extend %page-settings;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem
+}
 
 .overzicht-titel{
     @extend %overzicht-titel;
 }
 
 .Sdg-overzicht{
-    @extend %page-settings;
+    display: flex;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
 }

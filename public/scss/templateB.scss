@@ -1,8 +1,15 @@
 @use 'basics/colors.scss';
 @use 'basics/components.scss';
 
+.bente_main{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem
+}
+
 .sdgPage{
     @extend %page-settings;
+    padding-top: 8rem;
     flex-direction: row;
     line-height: 3rem;
     display: flex;
@@ -52,4 +59,9 @@
 .right_bottom__img2{
     @extend %img;
     width: 50%;
+}
+
+.cta__button{
+    padding: 2rem 3rem;
+    align-self: center;
 }

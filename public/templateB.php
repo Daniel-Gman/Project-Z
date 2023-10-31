@@ -1,5 +1,5 @@
 <?php
-    require("../views/page.php");
+    require("../views/page-bente.php");
     require("../views/header.php");
     require("../views/footer.php");
 ?>
@@ -20,7 +20,7 @@
         <?php makeHeader(); ?>
     </header>
 
-    <main class="main">
+    <main class="bente_main">
         <?php makePage(); ?>
     </main>
 

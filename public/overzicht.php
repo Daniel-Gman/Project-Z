@@ -20,7 +20,7 @@
         <?php makeHeader(); ?>
     </header>
 
-    <main class="overzicht__main">
+    <main class="main__overzicht">
         <h2 class="overzicht-titel">Overzicht van alle SDG's</h2>
         <section class="Sdg-overzicht">
             <?php alleSDGs(); ?>

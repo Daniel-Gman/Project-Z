@@ -8,7 +8,7 @@ function mainTitle() {
 
 function mainButton() {
 
-    echo' <button class="main__button">Speel hier de game!</button> ';
+    echo' <button class="cta__button" ><a class="cta__button_a" href="https://sdggame.nl/" target="_blank">Speel hier de game!</a></button> ';
 }
 
 ?>
