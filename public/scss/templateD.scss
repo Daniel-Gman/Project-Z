@@ -1,6 +1,6 @@
 @use 'basics/colors.scss';
 
-h1 {
+.daniel-titel{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +25,7 @@ h1 {
     height: 40rem;
 }
 
-.main {
+.daniel-main {
     padding-top: 3rem;
 }
 
@@ -63,7 +63,7 @@ h1 {
     justify-content: center;
 }
 
-p {
+.daniel-p {
     display: flex;
     justify-content: center;
 }

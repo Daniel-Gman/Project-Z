@@ -23,7 +23,7 @@
         <?php makeHeader(); ?>
     </header>
 
-    <main class="main">
+    <main class="home_main">
         <?php mainTitle(); ?>
 
         <section class="main__SDG__section">

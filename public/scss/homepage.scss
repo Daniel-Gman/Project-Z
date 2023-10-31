@@ -1,7 +1,7 @@
 @use 'basics/colors.scss';
 @use 'basics/components.scss';
 
-.main{
+.home_main{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -9,10 +9,7 @@
 }
 
 .main__titel{
-    padding-top: 2rem;
-    font-size: 7rem;
-    font-weight: 400;
-    align-self: center;
+    @extend %overzicht-titel;
 }
 
 .main__SDG__section{

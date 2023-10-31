@@ -3,6 +3,7 @@
 
 .sdgPage{
     @extend %page-settings;
+    flex-direction: row;
     line-height: 3rem;
     display: flex;
     gap: 5rem;
@@ -32,6 +33,7 @@
 
 .right_top__titel{
     @extend %h1;
+    line-height: 5rem;
 }
 
 .right_top__text{

@@ -7,16 +7,16 @@
 html {
   font-family: "Roboto", sans-serif;
   font-size: 62.5%;
+  color: black;
 }
 
-.overzicht__main, .sdgPage {
+.Sdg-overzicht, .sdgPage {
   padding: 10rem 0;
   width: 160rem;
   height: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  flex-direction: column;
   gap: 8rem;
 }
 
@@ -38,6 +38,12 @@ html {
   border: none;
   font-size: 3rem;
   bottom: 0;
+}
+
+.main__titel {
+  font-size: 5rem;
+  font-weight: 400;
+  align-self: center;
 }
 
 .right_top__titel {
@@ -92,18 +98,11 @@ html {
   width: 10px;
 }
 
-.main {
+.home_main {
   display: flex;
   justify-content: center;
   flex-direction: column;
   gap: 8rem;
-}
-
-.main__titel {
-  padding-top: 2rem;
-  font-size: 7rem;
-  font-weight: 400;
-  align-self: center;
 }
 
 .main__SDG__section {
@@ -138,6 +137,7 @@ html {
   }
 }
 .sdgPage {
+  flex-direction: row;
   line-height: 3rem;
   display: flex;
   gap: 5rem;
@@ -173,7 +173,7 @@ html {
   width: 50%;
 }
 
-h1 {
+.daniel-titel {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -198,7 +198,7 @@ h1 {
   height: 40rem;
 }
 
-.main {
+.daniel-main {
   padding-top: 3rem;
 }
 
@@ -236,17 +236,24 @@ h1 {
   justify-content: center;
 }
 
-p {
+.daniel-p {
   display: flex;
   justify-content: center;
 }
 
-.overzicht__main {
-  flex-direction: column;
+.overzicht-titel {
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+.Sdg-overzicht {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .SDG {
-  height: 30rem;
+  height: 20rem;
   border-radius: 5%;
 }
 

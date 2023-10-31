@@ -1,11 +1,18 @@
 @use 'basics/components.scss';
 
-.overzicht__main{
+
+.overzicht-titel{
+    @extend %overzicht-titel;
+}
+
+.Sdg-overzicht{
     @extend %page-settings;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .SDG{
-    height: 30rem;
+    height: 20rem;
     border-radius: 5%;
 }
