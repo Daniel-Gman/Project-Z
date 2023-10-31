@@ -25,9 +25,9 @@
         <?php danielPage(); ?>
     </main>
     
-    <footer>
+    <!-- <footer>
         <?php makeFooter(); ?>
-    </footer>
+    </footer> -->
     
     
 </body>

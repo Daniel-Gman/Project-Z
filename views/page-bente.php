@@ -1,12 +1,22 @@
 <?php
-
 function makePage() {
+
     require_once("../source/connect.php");
+
     $connection = db_connect();
 
+    $sql = "SELECT * FROM SDG WHERE id = ?";
+    $stmt = $connection->prepare($sql);
+
     $sdg = $_GET['sdg'];
-    $sql = "SELECT * FROM SDG WHERE id=". $sdg ."";
-    $result = mysqli_query($connection, $sql);
+
+    if ($stmt) {
+
+    $stmt->bind_param("i", $sdg);
+
+    $stmt->execute();
+
+    $result = $stmt->get_result();
 
     while ($row = $result->fetch_assoc()) {
         $id = $row['id'];
@@ -16,6 +26,12 @@ function makePage() {
         $path1 = $row['imgPath'];
         $path2 = $row['imgPath2'];
         $kleur = $row['kleur']; 
+    }
+
+    $stmt->close();
+    } else {
+
+    die("Error in SQL statement: " . $connection->error);
     }
 
     echo'   <section class="sdgPage">

@@ -2,7 +2,7 @@
 @use 'basics/components.scss';
 
 .header{
-    padding: 2rem;
+    padding: 2rem 4rem;
     display: flex;
     justify-content: space-between;
     background-color: colors.$light-purple;
@@ -44,8 +44,16 @@
     color: colors.$blackText;
 }
 
-.header > a{
-    background-color: red;
-    height: 10px;
-    width: 10px;
-}
+@media screen and (max-width: 140rem) {
+    .header__center{
+        gap: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 75rem) {
+    .header{
+        flex-direction: column;
+        gap: 4rem;
+        align-items: center;
+    }
+  }
