@@ -22,7 +22,10 @@
 
 .header__center{
     @extend %headerStuk;
-    gap: 10rem;
+    gap: 2rem;
+    display: flex;
+    width: 20rem;
+    justify-content: space-between;
 }
 
 .header__icon{
@@ -44,16 +47,16 @@
     color: colors.$blackText;
 }
 
-@media screen and (max-width: 140rem) {
-    .header__center{
-        gap: 2rem;
-    }
-  }
+// @media screen and (max-width: 100rem) {
+//     .header__center{
+//         gap: 2rem;
+//     }
+//   }
 
   @media screen and (max-width: 75rem) {
     .header{
         flex-direction: column;
-        gap: 4rem;
+        // gap: 4rem;
         align-items: center;
     }
   }

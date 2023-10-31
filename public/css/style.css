@@ -71,7 +71,10 @@ html {
 }
 
 .header__center {
-  gap: 10rem;
+  gap: 2rem;
+  display: flex;
+  width: 20rem;
+  justify-content: space-between;
 }
 
 .header__icon {
@@ -89,15 +92,9 @@ html {
   color: #000;
 }
 
-@media screen and (max-width: 140rem) {
-  .header__center {
-    gap: 2rem;
-  }
-}
 @media screen and (max-width: 75rem) {
   .header {
     flex-direction: column;
-    gap: 4rem;
     align-items: center;
   }
 }
@@ -200,7 +197,7 @@ html {
 }
 
 .daniel_main {
-  padding-top: 4rem;
+  padding: 4rem 0;
   width: 90%;
   margin: 0 auto;
   display: flex;
