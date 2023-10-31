@@ -1,69 +1,57 @@
 @use 'basics/colors.scss';
+@use 'basics/components.scss';
 
-.daniel-titel{
+.daniel_main{
+    padding-top: 4rem;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+    flex-direction: column;
+    gap: 5rem;
 }
 
-.section__top {
+.SDG_top{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    background: red;
-    height: 50rem;
-    width: 100%;
+    gap: 2rem;
 }
 
-.section__img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: blue;
+.SDG_top__titel{
+    @extend %h1;
+}
+
+.SDG_top__img{
+    @extend %img;
     width: 40rem;
-    height: 40rem;
 }
 
-.daniel-main {
-    padding-top: 3rem;
-}
-
-.position {
+.SDG_mid{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
-.section__main_left {
-    width: 25rem;
-    height: 40rem;
-    background: greenyellow;
+.SDG_mid__text{
+    width: 30%;
+    font-size: 2rem;
+}
+
+.SDG_mid__img{
+    width: 30%;
+}
+
+.SDG_bottom{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    gap: 2rem;
 }
 
-.section__main_right {
-    width: 40rem;
-    height: 40rem;
-    background: greenyellow;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.SDG_bottom__titel{
+    font-size: 2.6rem;
 }
 
-.section__main_bottom {
-    margin-top: 3rem;
-    width: 94rem;
-    background: greenyellow;
-}
-
-.bottom {
-    display: flex;
-    justify-content: center;
-}
-
-.daniel-p {
-    display: flex;
-    justify-content: center;
+.SDG_bottom__text2{
+    font-size: 2rem;
+    width: 50%;
 }

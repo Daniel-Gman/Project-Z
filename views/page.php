@@ -32,7 +32,7 @@ function makePage() {
                             <h2 class"right_bottom__titel"=>Wat kan je als student doen?</h2>
                             <p class="right_bottom__paragraph">'.$tekst2.'</p>
                         </section>
-                        <img class="right_bottom__img2" src="'.$path2.'.webp" style="background-color:'.$kleur.';"alt="">
+                        <img class="right_bottom__img2" src="'.$path2.'.webp">
                     </section>
                 </section>
             </section>

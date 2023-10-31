@@ -11,7 +11,3 @@ html{
     font-size: 62.5%;
     color: black;
 }
-
-body{
-    @extend %page-settings;
-}
