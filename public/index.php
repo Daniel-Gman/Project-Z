@@ -33,9 +33,9 @@
         <?php mainButton(); ?>
     </main>
 
-    <!-- <footer>
+    <footer>
         <?php makeFooter() ?>
-    </footer> -->
+    </footer>
     
 </body>
 </html>

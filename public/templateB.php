@@ -24,9 +24,9 @@
         <?php makePage(); ?>
     </main>
 
-    <!-- <footer>
+    <footer>
         <?php makeFooter(); ?>
-    </footer> -->
+    </footer>
     
     
 </body>

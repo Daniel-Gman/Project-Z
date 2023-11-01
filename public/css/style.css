@@ -165,6 +165,20 @@ html {
     font-size: 1.5rem;
   }
 }
+.footer {
+  width: 100%;
+  height: 5rem;
+  background: #9ca0f5;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.footer__h1 {
+  color: white;
+}
+
 .bente_main {
   width: 100%;
   display: flex;
