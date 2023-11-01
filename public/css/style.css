@@ -172,6 +172,7 @@ html {
   }
 }
 .footer {
+  position: relative;
   width: 100%;
   height: 5rem;
   background: #9ca0f5;
@@ -179,6 +180,7 @@ html {
   justify-content: center;
   margin-top: 2rem;
   align-items: center;
+  bottom: 0;
 }
 
 .footer__h1 {
@@ -237,6 +239,7 @@ html {
 .cta__button {
   padding: 2rem 3rem;
   align-self: center;
+  margin: 10rem 0;
 }
 
 @media screen and (max-width: 1650px) {
@@ -313,6 +316,12 @@ html {
   width: 50%;
 }
 
+@media screen and (max-width: 725px) {
+  .SDG_mid {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .main__overzicht {
   display: flex;
   flex-direction: column;

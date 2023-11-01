@@ -2,6 +2,7 @@
 @use 'basics/components.scss';
 
 .footer {
+    position: relative;
     width: 100%;
     height: 5rem;
     background: colors.$light-purple;
@@ -9,6 +10,7 @@
     justify-content: center;
     margin-top: 2rem;
     align-items: center;
+    bottom: 0;
 }
 
 .footer__h1 {
