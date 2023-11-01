@@ -1,15 +1,11 @@
-.main__overzicht,
-.sdgPage,
-.home_main {
+.main__overzicht, .sdgPage, .home_main {
   padding-top: 4rem;
   width: 151rem;
   height: 100%;
   margin: 0 auto;
 }
 
-.header__left,
-.header__center,
-.header__right {
+.header__left, .header__center, .header__right {
   color: #fff;
   font-weight: 200;
   display: flex;
@@ -29,32 +25,25 @@
   bottom: 0;
 }
 
-.overzicht-titel,
-.main__titel {
+.overzicht-titel, .main__titel {
   font-size: 5rem;
   font-weight: 400;
   align-self: center;
 }
 
-.SDG_top__titel,
-.right_top__titel {
+.SDG_top__titel, .right_top__titel {
   font-size: 5rem;
 }
 
-.right_top__text,
-.right_bottom__text {
+.right_top__text, .right_bottom__text {
   font-size: 2rem;
 }
 
-.SDG_top__img,
-.left__img1,
-.right_bottom__img2 {
+.SDG_top__img, .left__img1, .right_bottom__img2 {
   border-radius: 5%;
 }
 
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -109,7 +98,6 @@ html {
     align-items: center;
   }
 }
-
 .home_main {
   display: flex;
   justify-content: center;
@@ -145,12 +133,10 @@ html {
   0% {
     opacity: 80%;
   }
-
   100% {
     opacity: 0%;
   }
 }
-
 .cta__button_a {
   display: block;
   color: white;
@@ -161,28 +147,20 @@ html {
   .main__titel {
     font-size: 3rem;
   }
-
   .main__SDG__section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
-
   .cta__button_a {
     font-size: 2rem;
   }
 }
-
 @media screen and (max-width: 40rem) {
   .cta__button_a {
     font-size: 1.5rem;
   }
-
-  .SDG_top__titel {
-    font-size: 3.5rem;
-  }
 }
-
 .bente_main {
   display: flex;
   flex-direction: column;
@@ -236,6 +214,11 @@ html {
   align-self: center;
 }
 
+@media screen and (max-width: 80rem) {
+  .sdgPage {
+    flex-wrap: wrap;
+  }
+}
 .daniel_main {
   padding: 4rem 0;
   width: 90%;
