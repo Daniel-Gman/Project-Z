@@ -27,9 +27,12 @@
     width: 45rem;
 }
 
-.main__SDG__img__cover{
+.main-sdg{
     height: 45rem;
     width: 45rem;
+}
+
+.main__SDG__img__cover{
     background-color: black;
     border-radius: 5%;
     z-index: 10;
@@ -54,7 +57,9 @@
 }
 
 @media screen and (max-width: 140rem) {
-    .main__sdg__section{
-        
+    .main-sdg, .main__SDG__img{
+        height: 35rem;
+        width: 35rem;
     }
+
   }

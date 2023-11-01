@@ -2,6 +2,7 @@
 @use 'basics/components.scss';
 
 .bente_main{
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 3rem
@@ -64,4 +65,38 @@
 .cta__button{
     padding: 2rem 3rem;
     align-self: center;
+}
+
+@media screen and (max-width: 1650px) {
+
+    .bente-main{
+        flex-direction: column;
+    }
+
+    .sdgPage{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sdgPage_right{
+        font-size: 350%;
+    }
+
+}
+
+@media screen and (max-width: 1250px) {
+
+    .right_bottom{
+        flex-direction: column;
+    }
+
+    .right_bottom__img2{
+        width: 100%;
+    }
+
+    .cta__button{
+        width: 60%;
+    }
+
 }
