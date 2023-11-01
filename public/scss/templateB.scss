@@ -8,7 +8,7 @@
     gap: 3rem
 }
 
-.sdgPage{
+.sdgPage {
     @extend %page-settings;
     padding-top: 8rem;
     flex-direction: row;
@@ -17,52 +17,52 @@
     gap: 5rem;
 }
 
-.sdgPage__left{
+.sdgPage__left {
     width: 30%;
 }
 
-.left__img1{
+.left__img1 {
     @extend %img;
     width: 100%;
 }
 
-.sdgPage__right{
+.sdgPage__right {
     width: 60%;
     display: flex;
     flex-direction: column;
     gap: 5rem;
 }
 
-.right_top{
+.right_top {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.right_top__titel{
+.right_top__titel {
     @extend %h1;
     line-height: 5rem;
 }
 
-.right_top__text{
+.right_top__text {
     @extend %paragraph;
 }
 
-.right_bottom{
+.right_bottom {
     display: flex;
     gap: 5rem;
 }
 
-.right_bottom__text{
+.right_bottom__text {
     @extend %paragraph;
 }
 
-.right_bottom__img2{
+.right_bottom__img2 {
     @extend %img;
     width: 50%;
 }
 
-.cta__button{
+.cta__button {
     padding: 2rem 3rem;
     align-self: center;
 }

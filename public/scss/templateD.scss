@@ -1,7 +1,7 @@
 @use 'basics/colors.scss';
 @use 'basics/components.scss';
 
-.daniel_main{
+.daniel_main {
     padding: 4rem 0;
     width: 90%;
     margin: 0 auto;
@@ -10,48 +10,48 @@
     gap: 5rem;
 }
 
-.SDG_top{
+.SDG_top {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
 }
 
-.SDG_top__titel{
+.SDG_top__titel {
     @extend %h1;
 }
 
-.SDG_top__img{
+.SDG_top__img {
     @extend %img;
     width: 40rem;
 }
 
-.SDG_mid{
+.SDG_mid {
     display: flex;
     justify-content: space-around;
 }
 
-.SDG_mid__text{
+.SDG_mid__text {
     width: 30%;
     font-size: 2rem;
 }
 
-.SDG_mid__img{
+.SDG_mid__img {
     width: 30%;
 }
 
-.SDG_bottom{
+.SDG_bottom {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
 }
 
-.SDG_bottom__titel{
+.SDG_bottom__titel {
     font-size: 2.6rem;
 }
 
-.SDG_bottom__text2{
+.SDG_bottom__text2 {
     font-size: 2rem;
     width: 50%;
 }

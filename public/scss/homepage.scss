@@ -1,7 +1,7 @@
 @use 'basics/colors.scss';
 @use 'basics/components.scss';
 
-.home_main{
+.home_main {
     @extend %page-settings;
     display: flex;
     justify-content: center;
@@ -10,18 +10,18 @@
     width: 100%;
 }
 
-.main__titel{
+.main__titel {
     @extend %overzicht-titel;
 }
 
-.main__SDG__section{
+.main__SDG__section {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     width: 90%;
 }
 
-.main__SDG__img{
+.main__SDG__img {
     border-radius: 5%;
     height: 45rem;
     width: 45rem;
@@ -41,25 +41,46 @@
 }
 
 @keyframes layer {
-    0% {    opacity: 80%; } 
-    100% {  opacity: 0%;  }
-  }
+    0% {
+        opacity: 80%;
+    }
 
-
-.cta__button{
-@extend %cta;
+    100% {
+        opacity: 0%;
+    }
 }
 
-.cta__button_a{
+
+.cta__button {
+    @extend %cta;
+}
+
+.cta__button_a {
     display: block;
     color: white;
     text-decoration: none;
 }
 
-@media screen and (max-width: 140rem) {
-    .main-sdg, .main__SDG__img{
-        height: 35rem;
-        width: 35rem;
+@media screen and (max-width: 80rem) {
+
+    .main__titel {
+        font-size: 3rem;
     }
 
-  }
+    .main__SDG__section {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .cta__button_a {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 40rem) {
+
+    .cta__button_a {
+        font-size: 1.5rem;
+    }
+}

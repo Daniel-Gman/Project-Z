@@ -147,10 +147,22 @@ html {
   text-decoration: none;
 }
 
-@media screen and (max-width: 140rem) {
-  .main-sdg, .main__SDG__img {
-    height: 35rem;
-    width: 35rem;
+@media screen and (max-width: 80rem) {
+  .main__titel {
+    font-size: 3rem;
+  }
+  .main__SDG__section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .cta__button_a {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 40rem) {
+  .cta__button_a {
+    font-size: 1.5rem;
   }
 }
 .bente_main {
