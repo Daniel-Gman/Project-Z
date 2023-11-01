@@ -93,9 +93,15 @@ html {
   color: #000;
 }
 
+@media screen and (max-width: 100rem) {
+  .header__center {
+    gap: 2rem;
+  }
+}
 @media screen and (max-width: 75rem) {
   .header {
     flex-direction: column;
+    gap: 4rem;
     align-items: center;
   }
 }
