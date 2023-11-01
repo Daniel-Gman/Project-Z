@@ -1,6 +1,10 @@
 <?php
 
 function makeFooter(){
-    echo'<h1>Footer</h1>';
+    echo'
+    <section class="footer">
+    <h1 class="footer__h1">Bente & Daniel</h1>
+    </section>
+    ';
 }
 
