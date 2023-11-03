@@ -1,19 +1,16 @@
 <?php
 function makePage() {
+    $sdg = $_GET['sdg'];
 
     require_once("../source/connect.php");
-
     $connection = db_connect();
 
     $sql = "SELECT * FROM SDG WHERE id = ?";
     $stmt = $connection->prepare($sql);
 
-    $sdg = $_GET['sdg'];
-
     if ($stmt) {
 
     $stmt->bind_param("i", $sdg);
-
     $stmt->execute();
 
     $result = $stmt->get_result();
@@ -25,11 +22,14 @@ function makePage() {
         $tekst2 = $row['tekst2'];
         $path1 = $row['imgPath'];
         $path2 = $row['imgPath2'];
-        $kleur = $row['kleur']; 
+        $kleur = $row['kleur'];
+
     }
 
     $stmt->close();
-    } else {
+    }
+    
+    else {
 
     die("Error in SQL statement: " . $connection->error);
     }

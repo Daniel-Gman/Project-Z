@@ -14,8 +14,14 @@ function alleSDGs() {
         require_once("../source/connect.php");
         $connection = db_connect();
 
-        $sql = "SELECT * FROM SDG WHERE id=". $currentNumber ."";
-        $result = mysqli_query($connection, $sql);
+        $sql = "SELECT * FROM SDG WHERE id=".$currentNumber."";
+        $stmt = $connection->prepare($sql);
+    
+        if ($stmt) {
+    
+        $stmt->execute();
+    
+        $result = $stmt->get_result();
 
         if (mysqli_num_rows($result) > 0) {
 
@@ -31,4 +37,5 @@ function alleSDGs() {
         }
 
     }
-}    
+}
+}

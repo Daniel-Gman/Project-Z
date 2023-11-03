@@ -14,19 +14,6 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
--- Dumpen data van tabel voorbeeld_db.nummers: ~10 rows (ongeveer)
-INSERT INTO `nummers` (`id`, `artiest`, `titel`, `genre`, `imgLink`, `duur`, `releaseDatum`) VALUES
-	(1, 'Juice Wrld', 'Fast', 'Hiphop/Rap', 'img/fast.webp', '3:29', '8 maart 2019'),
-	(2, 'Sick World', 'Still lost', 'Hiphop/Rap', 'img/stillLost.webp', '1:35', '10 december 2017'),
-	(3, 'Forest Blakk', 'If you love her', 'Pop', 'img/ifYouLoveHer.webp', '3:38', '30 september 2020'),
-	(4, 'Kanye West', 'Heartless', 'Pop ballad', 'img/heartless.webp', '3:19', '27 november 2019'),
-	(5, 'Ghost', 'Jesus he knows me', 'Rock', 'img/jesusHeKnowsMe.webp', '4:06', '9 april 2023'),
-	(6, 'NF', 'HOPE', 'Pop', 'img/hope.webp', '4:25', '16 februari 2023'),
-	(7, 'Arrows In Action', 'All The Ways I Could Die', 'Rock', 'img/allTheWaysICouldDie.webp', '3:13', '1 october 2021'),
-	(8, 'NEFFEX', 'Scars', 'Alternatief/Indie', 'img/scars.webp', '2:31', '25 september 2020'),
-	(9, 'Livingston', 'Half Life', 'Alternatief/Indie', 'img/halfLife.webp', '3:07', '7 juli 2023'),
-	(10, 'Josh A, iamjakehill', 'Cycles', 'Alternatief/Indie', 'img/cycles.webp', '2:49', '15 juni 2019');
-
 -- Dumpen data van tabel voorbeeld_db.SDG: ~17 rows (ongeveer)
 INSERT INTO `SDG` (`id`, `titel`, `kleur`, `imgPath`, `imgPath2`, `tekst1`, `tekst2`) VALUES
 	(1, 'Geen armoede', '#FF0000', 'img/sdg1', 'img/sdg1.2', 'In 2019 maakte 6,2 procent van de Nederlandse bevolking deel uit van een huishouden met een inkomen onder de lage-inkomensgrens. SDG 1 is gericht op de afname van armoede in al haar vormen. Zowel financiële aspecten als de impact van armoede op het leven van mensen maken daar deel van uit.', 'Studenten kunnen vrijwilligerswerk doen bij lokale liefdadigheidsinstellingen om directe ondersteuning te bieden aan mensen in armoede. Ze kunnen ook bewustwordingscampagnes opzetten om de oorzaken en gevolgen van armoede te belichten, en geld inzamelen voor programma\'s die financiële educatie en microkredieten aanbieden om de armen te helpen ontsnappen aan de armoedecyclus.'),

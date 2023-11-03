@@ -16,7 +16,7 @@
 </head>
 <body>
 
-<header class="header">
+    <header class="header">
         <?php makeHeader(); ?>
     </header>
 
